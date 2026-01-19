@@ -1,16 +1,62 @@
-# React + Vite
+# React Project - Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Introduction
 
-## React Compiler
+**Music Player** - Full-featured music player with playlists and audio controls
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **React 19** – Latest React with modern hooks and features
+- **Vite** – Fast build tool and development server
+- **React Router** – Client-side routing for navigation
+- **Context API** – State management for music player
+- **Custom Hooks** – Reusable logic for game mechanics
+- **CSS3** – Modern styling with animations and transitions
+
+---
+
+## ⚡️ Features
+
+### 🎵 Music Player
+
+- 🎧 **Audio Playback** - Full audio controls (play, pause, next, previous)
+- 📁 **Playlists** - Create and manage custom playlists
+- 🎵 **Song Library** - Browse all available songs
+- 🎨 **Modern UI** - Clean, intuitive music player interface
+- 🔄 **Context API** - Global state management for music playback
+- 📱 **Responsive Design** - Works on all screen sizes
+
+---
+
+## 👌 Quick Start
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [Git](https://git-scm.com/)
+
+### Clone and Run
+
+```bash
+git clone https://github.com/Hjhh1201/music-player.git
+cd music-player
+```
+
+### Running the Project
+
+#### 🎵 Music Player
+
+```bash
+cd music-player
+npm install
+npm run dev
+```
+
+The project will be available at: [http://localhost:5173](http://localhost:5173) (or the next available port)
+
